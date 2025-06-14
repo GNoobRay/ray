@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seminar Certificates | Raymart G. Frio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #f8fafc 0%, #e0e7fd 40%, #f3e8ff 80%, #e0f7fa 100%);
+      min-height: 100vh;
+    }
+    .cert-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem 0;
+    }
+    .cert-card {
+      background: rgba(255,255,255,0.85);
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 32px #2563eb22, 0 2px 12px #a5b4fc33;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: 1.5px solid #e0e7fd;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .cert-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 16px 48px #38bdf833, 0 2px 12px #2563eb22;
+    }
+    .cert-card img {
+      object-fit: contain;
+      width: 100%;
+      height: 260px;
+      background: #f8fafc;
+      border-bottom: 1px solid #e0e7fd;
+    }
+    .cert-card .card-body {
+      padding: 1.2rem 0.7rem 1rem 0.7rem;
+    }
+    .cert-card .card-title {
+      font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+      font-weight: 700;
+      color: #2563eb;
+      font-size: 1.1rem;
+      margin-bottom: 0;
+    }
+    .cert-section-title {
+      font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 2.2rem;
+      color: #2563eb;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      position: relative;
+      display: inline-block;
+    }
+    .cert-section-title::after {
+      content: '';
+      display: block;
+      width: 60%;
+      height: 4px;
+      background: linear-gradient(90deg, #2563eb 0%, #38bdf8 100%);
+      border-radius: 2px;
+      margin: 0.5rem auto 0 auto;
+    }
+    @media (max-width: 900px) {
+      .cert-card img { height: 180px; }
+    }
+    @media (max-width: 600px) {
+      .cert-section-title { font-size: 1.3rem; }
+      .cert-card img { height: 120px; }
+      .cert-card .card-body { padding: 0.7rem 0.3rem 0.7rem 0.3rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Raymart G. Frio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="certificates-college.html">College Certificates</a></li>
+          <li class="nav-item"><a class="nav-link active" href="certificates-seminar.html">Seminar Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="cert-section">
+    <a href="index.html#certificates" class="btn btn-outline-primary mb-4">&larr; Back to Certificates</a>
+    <h1 class="cert-section-title mb-4">Seminar Certificates</h1>
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate1.png" class="card-img-top img-thumbnail" alt="Installing and Configuring Computer Systems" data-bs-toggle="modal" data-bs-target="#seminarModal1">
+            <div class="card-body text-center">
+              <h6 class="card-title">Installing and Configuring Computer Systems</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate 2.png" class="card-img-top img-thumbnail" alt="Introduction to CSS" data-bs-toggle="modal" data-bs-target="#seminarModal2">
+            <div class="card-body text-center">
+              <h6 class="card-title">Introduction to CSS</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate 3.png" class="card-img-top img-thumbnail" alt="Setting Up Computer Servers" data-bs-toggle="modal" data-bs-target="#seminarModal3">
+            <div class="card-body text-center">
+              <h6 class="card-title">Setting Up Computer Servers</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate 4.png" class="card-img-top img-thumbnail" alt="Maintaining Computer Systems and Networks" data-bs-toggle="modal" data-bs-target="#seminarModal4">
+            <div class="card-body text-center">
+              <h6 class="card-title">Maintaining Computer Systems and Networks</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate 5.png" class="card-img-top img-thumbnail" alt="Setting Up Computer Networks" data-bs-toggle="modal" data-bs-target="#seminarModal5">
+            <div class="card-body text-center">
+              <h6 class="card-title">Setting Up Computer Networks</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate 6.jpg" class="card-img-top img-thumbnail" alt="Technology Stack: Open Source NAT (April 19, 2025)" data-bs-toggle="modal" data-bs-target="#seminarModal6">
+            <div class="card-body text-center">
+              <h6 class="card-title">Technology Stack: Open Source NAT (April 19, 2025)</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate 7.jpg" class="card-img-top img-thumbnail" alt="Technology Stack: Open Source NAT (April 19, 2025)" data-bs-toggle="modal" data-bs-target="#seminarModal7">
+            <div class="card-body text-center">
+              <h6 class="card-title">Technology Stack: Open Source NAT (April 19, 2025)</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card cert-card h-100">
+            <img src="seminar certificates/certificate 8.jpg" class="card-img-top img-thumbnail" alt="Technology Stack: ReactJS (April 19, 2025)" data-bs-toggle="modal" data-bs-target="#seminarModal8">
+            <div class="card-body text-center">
+              <h6 class="card-title">Technology Stack: ReactJS (April 19, 2025)</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modals for full-size images -->
+      <div class="modal fade" id="seminarModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate1.png" class="w-100" alt="Installing and Configuring Computer Systems">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="seminarModal2" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate 2.png" class="w-100" alt="Introduction to CSS">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="seminarModal3" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate 3.png" class="w-100" alt="Setting Up Computer Servers">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="seminarModal4" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate 4.png" class="w-100" alt="Maintaining Computer Systems and Networks">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="seminarModal5" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate 5.png" class="w-100" alt="Setting Up Computer Networks">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="seminarModal6" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate 6.jpg" class="w-100" alt="Technology Stack: Open Source NAT (April 19, 2025)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="seminarModal7" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate 7.jpg" class="w-100" alt="Technology Stack: Open Source NAT (April 19, 2025)">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="seminarModal8" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body p-0">
+              <img src="seminar certificates/certificate 8.jpg" class="w-100" alt="Technology Stack: ReactJS (April 19, 2025)">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
